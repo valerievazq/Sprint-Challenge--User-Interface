@@ -34,7 +34,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    THE HTML MARK-UPS THAT GIVE MEANING TO THE CONTENT OF THE PAGE. FOR EXAMPLE, TAGS LIKE <P> FOR A PARAGRAPH, <H1> - <H6> FOR HEADING TAGS, <BUTTON> ETC.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    DISPLAY: BLOCK WILL START ON A NEW LINE, KIND OF LIKE ADDING A LINE BREAK. INLINE: BLOCK DOES NOT, IT STAYS ON THE SAME LINE, HENCE "INLINE". 
+
 
 3. What are the 4 areas of the box model?
 

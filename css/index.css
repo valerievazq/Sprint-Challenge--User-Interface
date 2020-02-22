@@ -147,12 +147,12 @@ footer nav a {
 
 /* MY CODE STARTS HERE */
 
-/* NAVIGATION BAR*/
+
 
 body {
     margin: 0 85px;
 }
-
+/* NAVIGATION BAR*/
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -235,6 +235,7 @@ nav a {
 
 /* ABOUT PAGE CSS */ 
 
+/* DIVIDING THE COLUMNS*/
 
 .container-about-page {
    padding: 20px 88px;
@@ -242,8 +243,40 @@ nav a {
 }
 
 #column-section {
-    padding-top: 30px;
+    padding-top: 10px;
     border-top: 1px dashed black;
-    margin: 0 85px;
+    margin: 0 50px;
 }
 
+#column-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columns {
+    width: 50%;
+    padding: 30px;
+    
+}
+
+.content {
+    margin-top: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* ADJUSTING THE BUTTON LOOKS */
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#bottom-section {
+    margin: 10px 80px;
+    font-weight: bold;
+}

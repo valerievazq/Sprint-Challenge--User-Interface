@@ -144,3 +144,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* MY CODE STARTS HERE */
+
+
+
+/* NAVIGATION BAR*/
+
+body {
+    margin: 0 85px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.head-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+

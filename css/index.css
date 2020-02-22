@@ -240,6 +240,7 @@ nav a {
 .container-about-page {
    padding: 20px 88px;
    margin-bottom: 20px;
+   font-weight: bold;
 }
 
 #column-section {
@@ -279,4 +280,8 @@ button {
 #bottom-section {
     margin: 10px 80px;
     font-weight: bold;
+}
+
+#about-footer{
+    margin-left: 50px;
 }

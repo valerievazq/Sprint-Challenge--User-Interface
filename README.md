@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    THE HTML MARK-UPS THAT GIVE MEANING TO THE CONTENT OF THE PAGE. FOR EXAMPLE, TAGS LIKE <P> FOR A PARAGRAPH, <H1> - <H6> FOR HEADING TAGS, <BUTTON> ETC.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    DISPLAY: BLOCK WILL START ON A NEW LINE, KIND OF LIKE ADDING A LINE BREAK OR HITTING ENTER WHEN TYPING A DOCUMENT. INLINE: BLOCK DOES NOT, IT STAYS ON THE SAME LINE, HENCE "INLINE". 
+
 
 3. What are the 4 areas of the box model?
 
+    MARGIN, BORDER, PADDING, CONTENT
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    CROSS-AXIS
+
 5. Explain why git is valuable to a team of developers.
+
+    GIT PROVIDES THE ABILITY FOR A GROUP OF DEVELOPERS TO WORK ON A PARTICULAR PROJECT AS A TEAM BY SHARING THEIR EXPERIENCES AND DIFFERENT PERSEPECTIVES THAT WILL EVENTUALLY ALLOW THEM TO FULFILL THE EXPECTED PRODUCT FROM A PROJECT. WITH HISTORY AND CHANGES TRACKING SYSTEM, DEVELOPERS ARE ABLE TO GO BACK AND FORTH IN THE PROJECTS SO THEY CAN ACHIEVE THEIR FINAL RESULT.  
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

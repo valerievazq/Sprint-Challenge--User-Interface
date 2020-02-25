@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: white;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -136,11 +136,152 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 0 2% 25px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* MY CODE STARTS HERE */
+
+
+
+body {
+    margin: 0 85px;
+}
+/* NAVIGATION BAR*/
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold ;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.head-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* CHANGING BOXES COLORS START*/
+
+.middle-content .boxes .box .box1 {
+    background-color: teal;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box2 {
+    background-color: gold;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box3 {
+    background-color: cadetblue;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box4 {
+    background-color: coral;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box5 {
+    background-color: crimson;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box6 {
+    background-color: forestgreen;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box7 {
+    background-color: darkorchid;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box8 {
+    background-color: hotpink;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box9 {
+    background-color: indigo;
+    padding: 41% 30%;
+}
+
+.middle-content .boxes .box .box10 {
+    background-color: dodgerblue;
+    padding: 41% 25%;
+}
+
+/* CHANGING BOXES COLORS END */
+
+/***********************/
+
+/* ABOUT PAGE CSS */ 
+
+/* DIVIDING THE COLUMNS*/
+
+.container-about-page {
+   padding: 20px 88px;
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+
+#column-section {
+    padding-top: 10px;
+    border-top: 1px dashed black;
+    margin: 0 50px;
+}
+
+#column-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columns {
+    width: 50%;
+    padding: 30px;
+    
+}
+
+.content {
+    margin-top: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* ADJUSTING THE BUTTON LOOKS */
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#bottom-section {
+    margin: 10px 80px;
+    font-weight: bold;
+}
+
+#about-footer{
+    margin-left: 50px;
 }
